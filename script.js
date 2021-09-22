@@ -83,7 +83,7 @@ const existeDecimal = () => {
 
 const inserirDecimal = () => {
     if (!existeDecimal()) {
-        if (existeValor) {
+        if (existeValor()) {
             atualizaDisplay(",");
         } else {
             atualizaDisplay("0,");
